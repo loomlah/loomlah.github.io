@@ -11,6 +11,6 @@
 window.LOOMLAH_CONFIG = {
   supabaseUrl: '',      // e.g. 'https://abcdefgh.supabase.co'
   supabaseKey: '',      // Supabase > Project Settings > API Keys > anon / publishable key
-  gaMeasurementId: '',  // Google Analytics 4, e.g. 'G-ABC123XYZ' (leave empty to turn off)
+  gaMeasurementId: 'G-QMEV2GBNY7',  // Google Analytics 4, e.g. 'G-ABC123XYZ' (leave empty to turn off)
   instagram: 'loomlah'
 };
