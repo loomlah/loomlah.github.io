@@ -1,0 +1,21 @@
+# Only needed if you deploy with the Supabase CLI (optional).
+# Every function is called from the public website or by HitPay,
+# so Supabase's own login check is switched off; each function
+# does its own checks instead.
+
+project_id = "loomlah"
+
+[functions.create-checkout]
+verify_jwt = false
+
+[functions.hitpay-webhook]
+verify_jwt = false
+
+[functions.order-status]
+verify_jwt = false
+
+[functions.seconds-verify]
+verify_jwt = false
+
+[functions.seconds-create]
+verify_jwt = false
